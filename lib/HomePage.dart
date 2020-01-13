@@ -1,4 +1,4 @@
-import 'package:bmi/InputPage.dart';
+import 'package:bmi/screens/InputPage.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

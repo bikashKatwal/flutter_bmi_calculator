@@ -10,6 +10,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'BMI Calculator',
       theme: ThemeData.dark().copyWith(
+
+        sliderTheme: SliderTheme.of(context).copyWith(
+          thumbShape: RoundSliderThumbShape(enabledThumbRadius: 15.0),
+          thumbColor: Color(0xFFEB1555),
+          activeTrackColor: Colors.white,
+          inactiveTrackColor: Color(0xFF8D8E98),
+          overlayShape: RoundSliderOverlayShape(overlayRadius: 30.0),
+          overlayColor: Color(0x1FEB1555),
+        ),
         primaryColor: Color(0xFF090C22),
         accentColor: Colors.green,
         scaffoldBackgroundColor: Color(0xFF090C22),
